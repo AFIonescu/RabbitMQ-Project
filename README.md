@@ -1,6 +1,6 @@
 # DSE-RabbitMQ-Project
 
-**Distributed Systems Engineering – Politehnica University of Bucharest**
+**Distributed Software Engineering – Politehnica University of Bucharest**
 *Author: Alexandru‑Florin Ionescu · May 2025*
 
 ---
