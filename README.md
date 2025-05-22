@@ -80,7 +80,7 @@ python scripts/send.py --count 1000 --no-sleep --mode persistent
 
 ---
 
-## 6 · Configuration & Bootstrap
+## 6 · Configuration
 
 * `rabbitmq.conf` and `rabbitmq‑env.conf` remain **unmodified** – the cluster relies on distro defaults.
 * HA mirrors are enabled at runtime:
@@ -88,9 +88,6 @@ python scripts/send.py --count 1000 --no-sleep --mode persistent
 ```bash
 rabbitmqctl set_policy ha-all "^" '{"ha-mode":"all","ha-sync-mode":"automatic"}'
 ```
-
-* `scripts/bootstrap_cluster.sh` reproduces the join/cluster steps described in **Section 2.1** of the Phase 4 PDF.
-
 ---
 
 ## 7 · Visualisations
